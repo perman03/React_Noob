@@ -5,7 +5,7 @@ const myObject = {
   civilizacion: 'Humanos'
 }
  
-const newMessage = [1,2,3,4,5]; 
+const newArray = [1,2,3,4,5]; 
 
 const HolaFrank = () => {
   console.log('Hola Frank')
@@ -19,7 +19,7 @@ export function FirtsApp() {
       
      //inicio de fragmento (fragment)
       <>                                                                  
-        <h1> { newMessage } </h1>                              {/* imprime arreglo */}
+        <h1> { newArray } </h1>                              {/* imprime arreglo */}
         <p> {HolaFrank()} </p>                                 {/* imprime el returno de la funcion y muestra el console.log */}
         <code> { JSON.stringify(myObject) } </code>            {/* Imprime el objeto tal cual en el HTML */}
         <p>Soy un subtitulo</p>                                {/* Subtitulo normal */}
