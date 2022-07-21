@@ -13,7 +13,7 @@ const HolaFrank = () => {
 }
 
 //componente 
-export function FirtsApp() {
+export function FirtsApp() {  
 
     return (
       
