@@ -5,4 +5,18 @@ html, body{
     font-family: Helvetica, sans-serif;
     font-size: 1.3rem;
     padding: 70px;
+    margin: 0 auto;
+}
+
+button{
+    padding: 5px 35px;
+    margin-right: 12px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+
+}
+#btnreset{
+    background-color: #edb95e;
 }
